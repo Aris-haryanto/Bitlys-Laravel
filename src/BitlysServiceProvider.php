@@ -13,7 +13,7 @@ class BitlysServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        $this->publishes([__DIR__.'/config' => config_path()], 'config');
     }
 
     /**
@@ -23,7 +23,6 @@ class BitlysServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        include __DIR__.'/routes.php';
-        $this->app->make('Arisharyanto\Bitlys\BitlysController');
+
     }
 }
