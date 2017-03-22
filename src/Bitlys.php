@@ -4,13 +4,11 @@ namespace Arisharyanto\Bitlys;
  
 use App\Http\Controllers\Controller;
  
-class BitlysController extends Controller
+class Bitlys extends Controller
 {
  
     function __construct(){
     	$config['access_token'] = config('bitlys.access_token');
-    	$config['login'] = config('bitlys.login');
-    	$config['apiKey'] = config('bitlys.apiKey');
     	$config['bitly_base_url'] = config('bitlys.bitly_base_url');
         $this->config = (object) $config;
     }
