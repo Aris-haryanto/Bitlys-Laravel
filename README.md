@@ -23,12 +23,12 @@ $ php artisan vendor:publish --provider="Arisharyanto\Bitlys\BitlysServiceProvid
 ### How to use
 
 Just add `use Arisharyanto\Bitlys\Bitlys`
-
-- `Bitlys::shorten($longUrl)`  Create short bitly url
-- `Bitlys::expand($shortUrl)`  Convert shortUrl to longUrl
-- `Bitlys::clicks($shortUrl)`  Returns the number of clicks on a single Bitlink
-- `Bitlys::countries($shortUrl)`  Returns metrics about the countries referring click traffic to a single Bitlink
-
+```
+Bitlys::shorten($longUrl);  # Create short bitly url
+Bitlys::expand($shortUrl);  # Convert shortUrl to longUrl
+Bitlys::clicks($shortUrl);  # Returns the number of clicks on a single Bitlink
+Bitlys::countries($shortUrl);  # Returns metrics about the countries referring click traffic to a single Bitlink
+```
 Simple !
 
 ### License
