@@ -13,6 +13,9 @@ class BitlysServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        $this->mergeConfigFrom(
+            __DIR__.'/config/backpack/base.php', 'backpack.base'
+        );
         $this->publishes([__DIR__.'/config' => config_path()], 'config');
     }
 
