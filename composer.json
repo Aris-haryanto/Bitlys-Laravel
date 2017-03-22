@@ -1,0 +1,13 @@
+{
+    "name": "arisharyanto/bitlys",
+    "description": "Libraries to create Short URL with Bitly API",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aris Haryanto",
+            "email": "arisharyanto32@gmail.com"
+        }
+    ],
+    "require": {}
+}
