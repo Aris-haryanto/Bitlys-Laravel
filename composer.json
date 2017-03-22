@@ -3,11 +3,28 @@
     "description": "Libraries to create Short URL with Bitly API",
     "type": "library",
     "license": "MIT",
+    "keywords": [
+        "bitly",
+        "bitlys",
+        "short",
+        "shorten"
+    ],
+    "homepage": "https://github.com/Aris-haryanto/Bitlys-Laravel",
+    "license": "MIT",
     "authors": [
         {
             "name": "Aris Haryanto",
-            "email": "arisharyanto32@gmail.com"
+            "email": "arisharyanto32@gmail.com",
+            "homepage": "https://arindasoft.wordpress.com/",
+            "role": "Sr Web Developer"
         }
     ],
-    "require": {}
+    "require": {
+        "php" : "~5.5|~7.0",
+    },
+    "autoload": {
+        "psr-4": {
+            "Arisharyanto\\Bitlys\\": "src"
+        }
+    },
 }
