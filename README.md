@@ -5,7 +5,7 @@ Create Shorten URL with Bitly API in Laravel
 - Run in your terminal:
 ```
 $ cd yourprojectdirectory
-$ composer require arisharyanto/bitlys:dev-master
+$ composer require arisharyanto/bitlys
 ```
 - Add the service providers in config/app.php:
 ```
