@@ -31,6 +31,10 @@ Bitlys::countries($shortUrl);  # Returns metrics about the countries referring c
 ```
 Simple !
 
+### Who is using Bitlys
+- [Ramayana](http://www.ramayana.co.id/)
+- [Unilever Food Solution](https://www.sahabatufs.com/)
+
 ### License
 
 See the license [https://github.com/Aris-haryanto/Bitlys-Laravel/blob/master/LICENSE](https://github.com/Aris-haryanto/Bitlys-Laravel/blob/master/LICENSE)
